@@ -1,0 +1,132 @@
+<mxfile host="localhost" modified="2024-03-01T02:37:54.967Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="vbHSAHL2uJm2Bc_pO8pd" version="22.1.7" type="device">
+  <diagram name="第 1 页" id="WtV7vvTko6o-KgCSV874">
+    <mxGraphModel dx="1050" dy="1726" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="PDtksQpaNwXXu_F84cIf-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;fontSize=14;" edge="1" parent="1" source="PDtksQpaNwXXu_F84cIf-1" target="PDtksQpaNwXXu_F84cIf-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="200" y="70" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PDtksQpaNwXXu_F84cIf-37" value="无" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;" vertex="1" connectable="0" parent="PDtksQpaNwXXu_F84cIf-4">
+          <mxGeometry x="0.0453" y="-1" relative="1" as="geometry">
+            <mxPoint x="-1" y="8" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PDtksQpaNwXXu_F84cIf-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="1" source="PDtksQpaNwXXu_F84cIf-1" target="PDtksQpaNwXXu_F84cIf-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PDtksQpaNwXXu_F84cIf-36" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;" vertex="1" connectable="0" parent="PDtksQpaNwXXu_F84cIf-10">
+          <mxGeometry x="-0.776" y="-2" relative="1" as="geometry">
+            <mxPoint x="1" y="4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PDtksQpaNwXXu_F84cIf-1" value="是否有新用户连接" style="rhombus;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="280" y="120" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="PDtksQpaNwXXu_F84cIf-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="1" source="PDtksQpaNwXXu_F84cIf-2" target="PDtksQpaNwXXu_F84cIf-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PDtksQpaNwXXu_F84cIf-2" value="等待用户连接" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="290" y="30" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PDtksQpaNwXXu_F84cIf-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;" edge="1" parent="1" source="PDtksQpaNwXXu_F84cIf-5" target="PDtksQpaNwXXu_F84cIf-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="450" y="290" />
+              <mxPoint x="450" y="60" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PDtksQpaNwXXu_F84cIf-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="1" source="PDtksQpaNwXXu_F84cIf-5" target="PDtksQpaNwXXu_F84cIf-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PDtksQpaNwXXu_F84cIf-5" value="发送新用户连接提醒" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="290" y="230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PDtksQpaNwXXu_F84cIf-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="1" source="PDtksQpaNwXXu_F84cIf-6" target="PDtksQpaNwXXu_F84cIf-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PDtksQpaNwXXu_F84cIf-6" value="控制连接接收消息" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="530" y="30" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PDtksQpaNwXXu_F84cIf-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="1" source="PDtksQpaNwXXu_F84cIf-7" target="PDtksQpaNwXXu_F84cIf-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PDtksQpaNwXXu_F84cIf-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="1" source="PDtksQpaNwXXu_F84cIf-7" target="PDtksQpaNwXXu_F84cIf-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PDtksQpaNwXXu_F84cIf-23" value="新用户提醒" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;" vertex="1" connectable="0" parent="PDtksQpaNwXXu_F84cIf-21">
+          <mxGeometry x="-0.5333" y="-3" relative="1" as="geometry">
+            <mxPoint x="3" y="9" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PDtksQpaNwXXu_F84cIf-7" value="检查消息类型" style="rhombus;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="525" y="110" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="PDtksQpaNwXXu_F84cIf-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;" edge="1" parent="1" source="PDtksQpaNwXXu_F84cIf-8" target="PDtksQpaNwXXu_F84cIf-13">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="590" y="270" />
+              <mxPoint x="500" y="270" />
+              <mxPoint x="500" y="339" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PDtksQpaNwXXu_F84cIf-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="1" source="PDtksQpaNwXXu_F84cIf-8" target="PDtksQpaNwXXu_F84cIf-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PDtksQpaNwXXu_F84cIf-8" value="创建工作连接" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="530" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PDtksQpaNwXXu_F84cIf-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="1" source="PDtksQpaNwXXu_F84cIf-11" target="PDtksQpaNwXXu_F84cIf-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PDtksQpaNwXXu_F84cIf-11" value="创建目标服务器连接" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="530" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PDtksQpaNwXXu_F84cIf-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=14;" edge="1" parent="1" source="PDtksQpaNwXXu_F84cIf-11" target="PDtksQpaNwXXu_F84cIf-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PDtksQpaNwXXu_F84cIf-12" value="将工作连接和目标服务器组成" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="530" y="380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PDtksQpaNwXXu_F84cIf-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="1" source="PDtksQpaNwXXu_F84cIf-13" target="PDtksQpaNwXXu_F84cIf-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PDtksQpaNwXXu_F84cIf-13" value="等待工作连接就绪" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="290" y="309" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PDtksQpaNwXXu_F84cIf-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;fontSize=14;" edge="1" parent="1" source="PDtksQpaNwXXu_F84cIf-14" target="PDtksQpaNwXXu_F84cIf-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="210" y="418" />
+              <mxPoint x="210" y="60" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PDtksQpaNwXXu_F84cIf-18" value="继续等待新用户连接" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;" vertex="1" connectable="0" parent="PDtksQpaNwXXu_F84cIf-17">
+          <mxGeometry x="-0.02" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PDtksQpaNwXXu_F84cIf-14" value="将用户连接和工作连接组成隧洞" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="290" y="388" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PDtksQpaNwXXu_F84cIf-19" value="心跳等其他控制功能" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="700" y="105" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PDtksQpaNwXXu_F84cIf-33" value="frps" style="swimlane;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="150" y="-10" width="320" height="480" as="geometry" />
+        </mxCell>
+        <mxCell id="PDtksQpaNwXXu_F84cIf-34" value="frpc" style="swimlane;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="470" y="-10" width="360" height="480" as="geometry" />
+        </mxCell>
+        <mxCell id="PDtksQpaNwXXu_F84cIf-27" value="目标服务器" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.traditional_server;fillColor=#7D7C7C;gradientColor=none;fontSize=14;" vertex="1" parent="PDtksQpaNwXXu_F84cIf-34">
+          <mxGeometry x="266.75" y="298.5" width="46.5" height="63" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

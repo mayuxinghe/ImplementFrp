@@ -1,0 +1,85 @@
+<mxfile host="localhost" modified="2024-02-27T06:47:51.593Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="Y5LXHGEweNHtZMuzczc4" version="22.1.7" type="device">
+  <diagram name="第 1 页" id="6VTjRMLX3xcgWs-GGQaz">
+    <mxGraphModel dx="1050" dy="1726" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="p2V9Jb1OfkRiWMFKlIuD-1" value="服务端 监听 8000 端口" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="110" y="110" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="p2V9Jb1OfkRiWMFKlIuD-2" value="启动" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="500" y="110" width="180" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="p2V9Jb1OfkRiWMFKlIuD-3" value="连接到服务器获取连接&lt;br&gt;net.Dial(&quot;tcp&quot;, &quot;localhost:8080&quot;)" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="470" y="202" width="240" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="p2V9Jb1OfkRiWMFKlIuD-4" value="向服务器发送数据&lt;br&gt;_, err = conn.Write([]byte(&quot;你好，服务器！&quot;))" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="430" y="303" width="320" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="p2V9Jb1OfkRiWMFKlIuD-6" value="读取服务器返回数据&lt;br&gt;n, err := conn.Read(buffer)" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="460" y="410" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="p2V9Jb1OfkRiWMFKlIuD-11" value="服务端" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="100" y="-360" width="100" height="350" as="geometry" />
+        </mxCell>
+        <mxCell id="p2V9Jb1OfkRiWMFKlIuD-13" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontSize=16;" parent="p2V9Jb1OfkRiWMFKlIuD-11" vertex="1">
+          <mxGeometry x="45" y="100" width="10" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="p2V9Jb1OfkRiWMFKlIuD-14" value="1）监听8000端口" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;fontSize=16;" parent="p2V9Jb1OfkRiWMFKlIuD-11" target="p2V9Jb1OfkRiWMFKlIuD-13" edge="1">
+          <mxGeometry x="0.0118" relative="1" as="geometry">
+            <mxPoint x="50" y="80" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="80" y="110" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p2V9Jb1OfkRiWMFKlIuD-22" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontSize=16;" parent="p2V9Jb1OfkRiWMFKlIuD-11" vertex="1">
+          <mxGeometry x="45" y="180" width="10" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="p2V9Jb1OfkRiWMFKlIuD-12" value="客户端" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="450" y="-360" width="100" height="350" as="geometry" />
+        </mxCell>
+        <mxCell id="p2V9Jb1OfkRiWMFKlIuD-17" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontSize=16;" parent="p2V9Jb1OfkRiWMFKlIuD-12" vertex="1">
+          <mxGeometry x="45" y="100" width="10" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="p2V9Jb1OfkRiWMFKlIuD-20" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontSize=16;" parent="p2V9Jb1OfkRiWMFKlIuD-12" vertex="1">
+          <mxGeometry x="45" y="167" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="p2V9Jb1OfkRiWMFKlIuD-23" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontSize=16;" parent="p2V9Jb1OfkRiWMFKlIuD-12" vertex="1">
+          <mxGeometry x="45" y="218" width="10" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="p2V9Jb1OfkRiWMFKlIuD-25" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontSize=16;" parent="p2V9Jb1OfkRiWMFKlIuD-12" vertex="1">
+          <mxGeometry x="45" y="290" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="p2V9Jb1OfkRiWMFKlIuD-26" value="5）读取服务端数据" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;fontSize=16;" parent="p2V9Jb1OfkRiWMFKlIuD-12" target="p2V9Jb1OfkRiWMFKlIuD-25" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="50" y="270" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="80" y="300" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p2V9Jb1OfkRiWMFKlIuD-19" value="2）连接到服务端" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;curved=0;rounded=0;fontSize=16;" parent="1" edge="1">
+          <mxGeometry width="60" relative="1" as="geometry">
+            <mxPoint x="495" y="-221" as="sourcePoint" />
+            <mxPoint x="155" y="-221" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p2V9Jb1OfkRiWMFKlIuD-21" value="3） 发送数据到服务端" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;curved=0;rounded=0;fontSize=16;" parent="1" source="p2V9Jb1OfkRiWMFKlIuD-20" target="p2V9Jb1OfkRiWMFKlIuD-22" edge="1">
+          <mxGeometry width="60" relative="1" as="geometry">
+            <mxPoint x="320" y="-160" as="sourcePoint" />
+            <mxPoint x="380" y="-160" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p2V9Jb1OfkRiWMFKlIuD-24" value="4）服务端返回响应数据给客户端" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;curved=0;rounded=0;fontSize=16;" parent="1" edge="1">
+          <mxGeometry width="60" relative="1" as="geometry">
+            <mxPoint x="155" y="-122" as="sourcePoint" />
+            <mxPoint x="495" y="-122" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
